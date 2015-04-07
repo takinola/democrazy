@@ -28,7 +28,7 @@
                 <div id="previewBackground" className="outer-centering-div">
                     <div className="inner-centering-div">
                         <div className="previewImage">
-                            <img src={src} onClick={this.advanceSlide} />
+                            <img src={src} id="previewImage" onClick={this.advanceSlide} />
                         </div>
                         <div className="previewCloseBtn">
                             <button className="btn btn-primary" onClick={this.handleClick}>Continue editing demo</button>
